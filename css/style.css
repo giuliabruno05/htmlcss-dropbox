@@ -1,0 +1,170 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* header  */
+header{ 
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+.row{ 
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    
+}
+.row-left, .row-right{ 
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+a{ 
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    font-size: 10px;
+    
+}
+
+#logo{ 
+    
+    width: 130px;
+    margin-right: 10px;
+    line-height: 50px;
+    
+
+    
+}
+.button{ 
+    background-color: #0061ff;
+    color: white;
+    border: hidden;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* elementi hero */
+.hero{ 
+    background-color:#b4d0e7;
+    width:100%;
+    height: 440px;
+    
+    
+}
+.container-hero{ 
+    width: 65%;
+    margin: auto;
+    
+    
+    
+}
+.container-flex{ 
+    display: flex;
+    margin-bottom: 30px;
+}
+
+h1{ 
+    font-size:50px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.text-hero{ 
+    width: 35%;
+    font-size: 12px;
+    
+
+    
+}
+.button.button-hero{ 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.foto-hero{ 
+    width:65%
+    
+    
+}
+.foto-hero img{ 
+    width: 100%;
+}
+
+.arrow{ 
+    font-size: 30px;
+    margin-top: 40px;
+}
+/* main */
+
+
+.container-main{ 
+    width: 55%;
+    margin: auto;
+}
+
+h3{ 
+    padding-top: 100px;
+}
+/* elementi blocco colonne */
+
+.container-col{ 
+    display: flex;
+    justify-content: space-between;
+    margin:20px auto;
+}
+.col{ 
+    width: 30%;
+}
+
+
+.fa-user{ 
+    font-size: 10px;
+
+}
+.head{ 
+    text-align: center;
+    border: solid 1px #dadadc;
+    
+}
+
+.text{ 
+    display: flex;
+}
+
+.text-col{ 
+    font-size: 12px;
+    margin-right: 20px;
+   
+}
+.corpo{ 
+    border: solid 1px #dadadc;
+    border-top: hidden;
+    padding: 20px;
+}
+h4{ 
+    padding: 10px;
+}
+.text { 
+    font-size: 10px;
+    
+}
+.button{ 
+    width: 100%;
+    
+}
+.col i{ 
+    margin-right: 2px;
+    padding-top: 2px;
+}
