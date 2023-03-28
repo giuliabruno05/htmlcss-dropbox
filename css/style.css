@@ -263,11 +263,65 @@ img{
     line-height: 25px;
     margin-top: 30px;
     position: relative;
-    
-
+}
+.container-requests{
+    margin-bottom: 80px;
 }
 .fa-angle-down{ 
    position: absolute;
    right:65px;
    top:10px;
+}
+/* elementi footer */
+footer{ 
+    background-color: black;
+    color: #ffffff;
+  
+    height: 450px;
+    padding: 50px;
+}
+
+.container-footer{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+li{ 
+    margin: 10px 10px;
+    list-style: none;
+    font-size: 10px;
+}
+.fa-earth-americas{ 
+   font-size: 10px;
+   margin-right: 10px;
+}
+.fa-caret-up{ 
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.text.linea{ 
+    position: relative;
+    padding-top: 80px;
+    
+    
+    
+    
+}
+
+
+.text.linea::after{ 
+    content: "";
+    display:block;
+    background-color: #ffffff;
+    height: 0.5px;
+    width: 140%;
+    position: absolute;
+    top: 50px;
+   
+}
+
+.title-footer{ 
+    font-size: 14px;
+    margin-bottom: 20px;
 }
