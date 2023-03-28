@@ -8,11 +8,12 @@
 
 /* header  */
 header{ 
-    
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 2000;
+    background-color: #ffffff;
 }
 
 .row{ 
@@ -52,7 +53,7 @@ a{
     background-color: #0061ff;
     color: white;
     border: hidden;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     font-size: 10px;
 }
@@ -62,6 +63,7 @@ a{
     background-color:#b4d0e7;
     width:100%;
     height: 440px;
+    margin-top: 50px;
     
     
 }
@@ -114,9 +116,7 @@ h1{
     margin: auto;
 }
 
-h3{ 
-    padding-top: 100px;
-}
+
 /* elementi blocco colonne */
 
 .container-col{ 
@@ -138,9 +138,12 @@ h3{
     border: solid 1px #dadadc;
     
 }
-
+section{ 
+    margin-top: 80px;
+}
 .text{ 
     display: flex;
+    font-size: 10px;
 }
 
 .text-col{ 
@@ -156,15 +159,103 @@ h3{
 h4{ 
     padding: 10px;
 }
-.text { 
-    font-size: 10px;
-    
-}
-.button{ 
+
+.col .button{ 
     width: 100%;
     
 }
 .col i{ 
     margin-right: 2px;
     padding-top: 2px;
+}
+/* elementi sezione partner */
+.contenitore-partner{ 
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    
+    
+}
+
+.foto-partner{ 
+    width: 60%;
+    
+
+}
+
+img{ 
+    width: 100%;
+}
+
+
+
+.text-partner{ 
+    width: 35%;
+    margin-top: 20px;
+}
+.p-main{ 
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.button.partner{ 
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/* elementi sezione cards */
+
+.container-cards{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards{ 
+    width:calc(91% / 3  );
+    margin-top: 30px;
+}
+.text-cards{ 
+    margin-left: 10px;
+    font-size: 10px;
+}
+/* elementi sezione titolo main */
+.link-main{ 
+    text-decoration: underline;
+    color: #4a4af3;
+}
+h2{ 
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.main-celeste{ 
+    background-color: #b4d0e7;
+    height: 200px;
+    padding: 50px 0;
+
+   
+    
+}
+.testo-main{ 
+    color: #61082b;
+    width: 60%;
+
+}
+.container-main{ 
+    position: relative;
+}
+.button.main{ 
+    background-color: #ffffff;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    right:0;
+    width:25%;
+    
+   
+
 }
