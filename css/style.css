@@ -226,7 +226,7 @@ img{
     text-decoration: underline;
     color: #4a4af3;
 }
-h2{ 
+#h2-main{ 
     width: 80%;
     margin-bottom: 20px;
 }
@@ -249,13 +249,25 @@ h2{
 }
 .button.main{ 
     background-color: #ffffff;
-    color: black;
+    color:black;
     padding: 5px;
     position: absolute;
     top: 10px;
     right:0;
     width:25%;
+}
+/* elementi sezione domande */
+.requests{
+    border-bottom: 1.5px solid #e7e7e7;
+    height: 50px;
+    line-height: 25px;
+    margin-top: 30px;
+    position: relative;
     
-   
 
+}
+.fa-angle-down{ 
+   position: absolute;
+   right:65px;
+   top:10px;
 }
